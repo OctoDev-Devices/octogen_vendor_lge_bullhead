@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     cneapiclient \
     qcrilhook \
     rcsimssettings \
-    rcsservice
+    rcsservice \
+    embmslibrary
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
