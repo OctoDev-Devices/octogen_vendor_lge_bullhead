@@ -130,9 +130,9 @@ LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := HotwordEnrollment
+LOCAL_MODULE := HotwordEnrollmentWCD9330
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := HotwordEnrollment/HotwordEnrollment.apk
+LOCAL_SRC_FILES := HotwordEnrollmentWCD9330/HotwordEnrollmentWCD9330.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true

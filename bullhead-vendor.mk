@@ -11,3 +11,46 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+$(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
+
+# Prebuilt APKs
+PRODUCT_PACKAGES += \
+    atfwd \
+    datastatusnotification \
+    HiddenMenu \
+    ims \
+    qcrilmsgtunnel \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
+    SetupSmartDeviceOverlay \
+    TimeService \
+    Tycho
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    cneapiclient \
+    qcrilhook \
+    rcsimssettings \
+    rcsservice
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+    CNEService \
+    ConnMO \
+    DCMO \
+    DiagMon \
+    DMConfigUpdate \
+    DMService \
+    GCS \
+    HotwordEnrollmentWCD9330 \
+    LifeTimerService \
+    SprintDM \
+    Turbo
+
+# Symlinks
+PRODUCT_PACKAGES += \
+    libimsmedia_jni.so \
+    libimscamera_jni.so \
+    libdmengine.so \
+    libdmjavaplugin.so
