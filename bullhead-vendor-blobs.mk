@@ -87,6 +87,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/qmi_fw.conf:system/etc/qmi_fw.conf \
     $(LOCAL_PATH)/etc/sap.conf:system/etc/sap.conf \
     $(LOCAL_PATH)/etc/thermal-engine-8992.conf:system/etc/thermal-engine-8992.conf \
+    $(LOCAL_PATH)/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    $(LOCAL_PATH)/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    $(LOCAL_PATH)/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    $(LOCAL_PATH)/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    $(LOCAL_PATH)/framework/rcsservice.jar:system/framework/rcsservice.jar \
     $(LOCAL_PATH)/lib64/hw/gps.msm8992.so:system/lib64/hw/gps.msm8992.so \
     $(LOCAL_PATH)/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     $(LOCAL_PATH)/lib64/libiperf.so:system/lib64/libiperf.so \

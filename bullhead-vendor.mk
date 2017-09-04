@@ -27,14 +27,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     Tycho
 
-# Prebuilt jars
-PRODUCT_PACKAGES += \
-    cneapiclient \
-    qcrilhook \
-    rcsimssettings \
-    rcsservice \
-    embmslibrary
-
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
     CNEService \
