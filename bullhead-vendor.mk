@@ -16,19 +16,26 @@ $(call inherit-product, vendor/lge/bullhead/bullhead-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-    atfwd \
     datastatusnotification \
     HiddenMenu \
     ims \
-    qcrilmsgtunnel \
     RCSBootstraputil \
     RcsImsBootstraputil \
-    SetupSmartDeviceOverlay \
     TimeService \
-    Tycho
+    Tycho 
+
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    cneapiclient \
+    qcrilhook \
+    rcsimssettings \
+    rcsservice
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
+    atfwd \
+    CarrierEntitlement \
+    CarrierServices \
     CNEService \
     ConnMO \
     DCMO \
@@ -38,8 +45,8 @@ PRODUCT_PACKAGES += \
     GCS \
     HotwordEnrollmentWCD9330 \
     LifeTimerService \
-    SprintDM \
-    Turbo
+    qcrilmsgtunnel \
+    SprintDM
 
 # Symlinks
 PRODUCT_PACKAGES += \
